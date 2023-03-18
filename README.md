@@ -1,3 +1,3 @@
-# Twitter-bot
-This is a simple twitter bot that can send message that you write on him. 
-For the full explanation visit https://webchatsoftware99.altervista.org/twitter-bot.html
+# Score Calculator
+This is a simple Score Calculator that can calculate your school score 
+For the full explanation visit https://webchatsoftware99.altervista.org/Calcolatore-Voti.html
