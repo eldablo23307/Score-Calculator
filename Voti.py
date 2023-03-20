@@ -27,8 +27,22 @@ def Calcolatore():
     media = str(media)
     print("La tua media per " + materia + " è " + media)
 
+def test():
+    punteggio_presso = int(input("Inserire il punteggio prese nel test: "))
+    punteggio_massimo = int(input("Inserire il punteggio massimo nel test: "))
+
+    tot = ((punteggio_presso/punteggio_massimo)*8)+2
+
+    print(tot)
+
+
 Startup()
-Calcolatore()
+scelta = input("Qualle modalita scegli calcolo della media o calcolo punteggio test?:")
+
+if (scelta == "calcolo della media"):
+    Calcolatore()
+elif(scelta == "calcolo punteggio test"):
+    test()
 
 
 """"
